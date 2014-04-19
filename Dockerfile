@@ -10,4 +10,4 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt
 RUN apt-get update
 
 RUN apt-get install -qy ruby1.9.1
-RUN gem install --no-ri --no-rdoc pry
+RUN gem install -q --no-ri --no-rdoc pry
